@@ -1,0 +1,115 @@
+2026-11-18 20:55:34,169 - Stocklogger - INFO - INFO: Agent 0 decide to loan: {'loan': 'yes', 'loan_type': 2, 'amount': 1000000, 'repayment_date': 67}
+2026-11-18 20:55:39,990 - Stocklogger - INFO - INFO: Agent 0 decide to action: {'action_type': 'buy', 'stock': 'B', 'amount': 2000, 'price': 42.0}
+2026-11-18 20:55:56,386 - Stocklogger - DEBUG - Agents initial...
+2026-11-18 20:55:56,435 - Stocklogger - DEBUG - cash: 2818168.3494028333, stock a: 28449, stock b:12677, debt: [{'loan': 'yes', 'amount': 257806.0930370224, 'loan_type': 2, 'repayment_date': 132}]
+2026-11-18 20:55:56,450 - Stocklogger - DEBUG - cash: 13622.96079105374, stock a: 15736, stock b:85747, debt: [{'loan': 'yes', 'amount': 988370.9113763906, 'loan_type': 1, 'repayment_date': 220}]
+2026-11-18 20:55:56,467 - Stocklogger - DEBUG - cash: 1127231.5811368017, stock a: 7786, stock b:63813, debt: [{'loan': 'yes', 'amount': 203619.6456650502, 'loan_type': 1, 'repayment_date': 88}]
+2026-11-18 20:55:56,467 - Stocklogger - DEBUG - --------Simulation Start!--------
+2026-11-18 20:55:56,467 - Stocklogger - DEBUG - --------DAY 1---------
+2026-11-18 20:55:58,804 - Stocklogger - INFO - INFO: Agent 0 decide to loan: {'loan': 'yes', 'loan_type': 2, 'amount': 257806.0930370224, 'repayment_date': 67}
+2026-11-18 20:56:05,375 - Stocklogger - INFO - INFO: Agent 1 decide to loan: {'loan': 'yes', 'loan_type': 1, 'amount': 3000000.0, 'repayment_date': 45}
+2026-11-18 20:56:07,447 - Stocklogger - INFO - INFO: Agent 2 decide to loan: {'loan': 'yes', 'loan_type': 1, 'amount': 2000000, 'repayment_date': 45}
+2026-11-18 20:56:07,447 - Stocklogger - DEBUG - SESSION 1
+2026-11-18 20:56:10,039 - Stocklogger - INFO - INFO: Agent 1 decide to action: {'action_type': 'buy', 'stock': 'B', 'amount': 10000, 'price': 42.5}
+2026-11-18 20:56:17,637 - Stocklogger - INFO - INFO: Agent 2 decide to action: {'action_type': 'buy', 'stock': 'B', 'amount': 15000, 'price': 42.5}
+2026-11-18 20:56:19,917 - Stocklogger - INFO - INFO: Agent 0 decide to action: {'action_type': 'buy', 'stock': 'B', 'amount': 2000, 'price': 42.3}
+2026-11-18 20:56:26,600 - Stocklogger - INFO - Agent 0 tomorrow estimation: {'buy_A': 'no', 'buy_B': 'yes', 'sell_A': 'no', 'sell_B': 'no', 'loan': 'yes'}
+2026-11-18 20:56:33,495 - Stocklogger - INFO - Agent 1 tomorrow estimation: {'buy_A': 'no', 'buy_B': 'yes', 'sell_A': 'no', 'sell_B': 'no', 'loan': 'yes'}
+2026-11-18 20:56:40,262 - Stocklogger - INFO - Agent 2 tomorrow estimation: {'buy_A': 'no', 'buy_B': 'yes', 'sell_A': 'no', 'sell_B': 'no', 'loan': 'yes'}
+2026-11-18 20:56:40,292 - Stocklogger - DEBUG - DAY 1 ends, display forum messages...
+2026-11-18 20:56:48,057 - Stocklogger - INFO - Agent 0 says: Company B is showing strong growth potential in the tech sector with solid financial reports over the past three years. I will continue to hold and look for buying opportunities, while maintaining a cautious stance on Stock A due to its recent stagnation.
+2026-11-18 20:56:55,501 - Stocklogger - INFO - Agent 1 says: Company B shows strong growth potential with solid financials over the past three years. I'm bullish on B and plan to continue accumulating shares, while holding onto Company A for stability. Good luck to everyone trading today!
+2026-11-18 20:57:02,287 - Stocklogger - INFO - Agent 2 says: Company B shows strong growth momentum in revenue and cash flow, making it a solid investment choice for the tech sector. I'm focusing on accumulating more shares of B while holding onto my current position in A.
+2026-11-18 20:57:02,287 - Stocklogger - DEBUG - --------DAY 2---------
+2026-11-18 20:57:04,878 - Stocklogger - INFO - INFO: Agent 0 decide not to loan
+2026-11-18 20:57:07,423 - Stocklogger - INFO - INFO: Agent 1 decide to loan: {'loan': 'yes', 'loan_type': 1, 'amount': 67407.88, 'repayment_date': 46}
+2026-11-18 20:57:14,325 - Stocklogger - INFO - INFO: Agent 2 decide not to loan
+2026-11-18 20:57:14,325 - Stocklogger - DEBUG - SESSION 1
+2026-11-18 20:57:21,798 - Stocklogger - INFO - INFO: Agent 0 decide not to action
+2026-11-18 20:57:29,306 - Stocklogger - INFO - INFO: Agent 2 decide to action: {'action_type': 'buy', 'stock': 'B', 'amount': 1000, 'price': 42.5}
+2026-11-18 20:57:36,821 - Stocklogger - INFO - INFO: Agent 1 decide to action: {'action_type': 'buy', 'stock': 'B', 'amount': 10000, 'price': 42.5}
+2026-11-18 20:57:44,046 - Stocklogger - INFO - Agent 0 tomorrow estimation: {'buy_A': 'no', 'buy_B': 'no', 'sell_A': 'no', 'sell_B': 'no', 'loan': 'no'}
+2026-11-18 20:57:48,076 - Stocklogger - INFO - Agent 1 tomorrow estimation: {'buy_A': 'no', 'buy_B': 'yes', 'sell_A': 'no', 'sell_B': 'no', 'loan': 'yes'}
+2026-11-18 20:57:54,133 - Stocklogger - INFO - Agent 2 tomorrow estimation: {'buy_A': 'no', 'buy_B': 'yes', 'sell_A': 'no', 'sell_B': 'no', 'loan': 'no'}
+2026-11-18 20:57:54,154 - Stocklogger - DEBUG - DAY 2 ends, display forum messages...
+2026-11-18 20:58:01,398 - Stocklogger - INFO - Agent 0 says: Company A continues to show signs of stagnation in its mature chemical business, while Company B demonstrates strong financial growth in the tech sector. As a conservative trader, I am maintaining my current positions in both stocks and holding off on new loans or aggressive trading actions until clearer market trends emerge.
+2026-11-18 20:58:09,119 - Stocklogger - INFO - Agent 1 says: Company B continues to demonstrate strong growth momentum and solid financials in the tech sector. I am maintaining my bullish stance on Stock B and continuing to accumulate shares, while holding Stock A for portfolio stability.
+2026-11-18 20:58:16,790 - Stocklogger - INFO - Agent 2 says: Company B continues to demonstrate stellar financial growth in revenue and cash flow, making it the prime growth driver in my portfolio. I am maintaining my holdings in Stock A for stability while actively accumulating more shares of Stock B to capitalize on its strong tech sector momentum.
+2026-11-18 20:58:16,791 - Stocklogger - DEBUG - --------Simulation finished!--------
+2026-11-18 20:58:16,791 - Stocklogger - DEBUG - --------Agents action history--------
+2026-11-18 21:27:56,983 - Stocklogger - DEBUG - Agents initial...
+2026-11-18 21:27:57,034 - Stocklogger - DEBUG - cash: 204787.25086952254, stock a: 42581, stock b:59830, debt: [{'loan': 'yes', 'amount': 2221050.0176195223, 'loan_type': 1, 'repayment_date': 22}]
+2026-11-18 21:27:57,048 - Stocklogger - DEBUG - cash: 2030519.341284892, stock a: 713, stock b:14915, debt: [{'loan': 'yes', 'amount': 665736.536083289, 'loan_type': 2, 'repayment_date': 88}]
+2026-11-18 21:27:57,063 - Stocklogger - DEBUG - cash: 1285092.922022003, stock a: 92744, stock b:11644, debt: [{'loan': 'yes', 'amount': 344516.88965885964, 'loan_type': 0, 'repayment_date': 154}]
+2026-11-18 21:27:57,063 - Stocklogger - DEBUG - --------Simulation Start!--------
+2026-11-18 21:27:57,063 - Stocklogger - DEBUG - --------DAY 1---------
+2026-11-18 21:28:04,158 - Stocklogger - INFO - INFO: Agent 0 decide to loan: {'loan': 'yes', 'loan_type': 1, 'amount': 1500000.0, 'repayment_date': 45}
+2026-11-18 21:28:11,435 - Stocklogger - INFO - INFO: Agent 1 decide to loan: {'loan': 'yes', 'loan_type': 2, 'amount': 665736.536083289, 'repayment_date': 67}
+2026-11-18 21:28:17,870 - Stocklogger - INFO - INFO: Agent 2 decide to loan: {'loan': 'yes', 'loan_type': 0, 'amount': 344516.88965885964, 'repayment_date': 23}
+2026-11-18 21:28:17,871 - Stocklogger - DEBUG - SESSION 1
+2026-11-18 21:28:20,038 - Stocklogger - INFO - INFO: Agent 2 decide to action: {'action_type': 'buy', 'stock': 'B', 'amount': 2500, 'price': 42.5}
+2026-11-18 21:28:27,202 - Stocklogger - INFO - INFO: Agent 1 decide not to action
+2026-11-18 21:28:34,270 - Stocklogger - INFO - INFO: Agent 0 decide to action: {'action_type': 'buy', 'stock': 'B', 'amount': 2000, 'price': 42.3}
+2026-11-18 21:28:42,771 - Stocklogger - INFO - Agent 0 tomorrow estimation: {'buy_A': 'no', 'buy_B': 'yes', 'sell_A': 'no', 'sell_B': 'no', 'loan': 'yes'}
+2026-11-18 21:28:50,577 - Stocklogger - INFO - Agent 1 tomorrow estimation: {'buy_A': 'no', 'buy_B': 'no', 'sell_A': 'no', 'sell_B': 'no', 'loan': 'yes'}
+2026-11-18 21:28:58,248 - Stocklogger - INFO - Agent 2 tomorrow estimation: {'buy_A': 'no', 'buy_B': 'yes', 'sell_A': 'no', 'sell_B': 'no', 'loan': 'yes'}
+2026-11-18 21:28:58,269 - Stocklogger - DEBUG - DAY 1 ends, display forum messages...
+2026-11-18 21:29:05,522 - Stocklogger - INFO - Agent 0 says: Company B continues to show strong growth potential and robust financial health despite past tech sector fluctuations, making it an attractive buy. Meanwhile, Company A remains stable but faces operational bottlenecks. I will maintain my positions and look for strategic opportunities in B.
+2026-11-18 21:29:13,229 - Stocklogger - INFO - Agent 1 says: Company A is experiencing some operational bottlenecks and declining revenue over the past three years, though its overall financial foundation remains relatively stable. Company B is a growth-oriented technology stock with solid financial performance despite broader sectoral fluctuations. As a conservative trader, I am maintaining my current positions in both stocks and closely monitoring market trends and upcoming financial reports before making any aggressive moves.
+2026-11-18 21:29:22,001 - Stocklogger - INFO - Agent 2 says: Company B continues to demonstrate solid growth momentum supported by its latest financial reports, making it an attractive addition for growth-oriented strategies. Meanwhile, Company A remains stable but faces top-line pressures. Keeping a balanced outlook and utilizing favorable loan conditions to support further accumulation in tech-driven growth sectors like Stock B.
+2026-11-18 21:29:22,002 - Stocklogger - DEBUG - --------DAY 2---------
+2026-11-18 21:29:29,186 - Stocklogger - INFO - INFO: Agent 0 decide not to loan
+2026-11-18 21:29:36,880 - Stocklogger - INFO - INFO: Agent 1 decide not to loan
+2026-11-18 21:29:44,428 - Stocklogger - INFO - INFO: Agent 2 decide to loan: {'loan': 'yes', 'loan_type': 0, 'amount': 500000, 'repayment_date': 24}
+2026-11-18 21:29:44,428 - Stocklogger - DEBUG - SESSION 1
+2026-11-18 21:29:51,718 - Stocklogger - INFO - INFO: Agent 1 decide not to action
+2026-11-18 21:29:57,734 - Stocklogger - INFO - INFO: Agent 0 decide not to action
+2026-11-18 21:30:04,022 - Stocklogger - INFO - INFO: Agent 2 decide to action: {'action_type': 'buy', 'stock': 'B', 'amount': 1000, 'price': 42.5}
+2026-11-18 21:30:06,252 - Stocklogger - INFO - Agent 0 tomorrow estimation: {'buy_A': 'no', 'buy_B': 'no', 'sell_A': 'no', 'sell_B': 'no', 'loan': 'no'}
+2026-11-18 21:30:08,717 - Stocklogger - INFO - Agent 1 tomorrow estimation: {'buy_A': 'no', 'buy_B': 'no', 'sell_A': 'no', 'sell_B': 'no', 'loan': 'no'}
+2026-11-18 21:30:17,334 - Stocklogger - INFO - Agent 2 tomorrow estimation: {'buy_A': 'no', 'buy_B': 'yes', 'sell_A': 'no', 'sell_B': 'no', 'loan': 'yes'}
+2026-11-18 21:30:17,355 - Stocklogger - DEBUG - DAY 2 ends, display forum messages...
+2026-11-18 21:30:25,370 - Stocklogger - INFO - Agent 0 says: Company B continues to show solid growth supported by steady financial performance, while Company A remains stable with ongoing operational bottlenecks. As a conservative trader, I am maintaining my current positions in both stocks and monitoring market trends closely before making any further moves.
+2026-11-18 21:30:34,211 - Stocklogger - INFO - Agent 1 says: ```json
+{"message": "Company B shows solid growth momentum and financial health, while Company A remains stable with some operational challenges. As a conservative trader, I am maintaining my current positions in both stocks and monitoring market trends closely."}
+```
+2026-11-18 21:30:43,894 - Stocklogger - INFO - Agent 2 says: Company B continues to demonstrate strong growth potential and robust financial metrics despite broader tech sector fluctuations, making it an attractive asset for growth-oriented strategies. Meanwhile, Company A remains stable but continues to face operational and top-line pressures. I am maintaining my positions in Stock A while continuing to strategically accumulate shares in Stock B to capture its upward momentum.
+2026-11-18 21:30:43,895 - Stocklogger - DEBUG - --------Simulation finished!--------
+2026-11-18 21:30:43,895 - Stocklogger - DEBUG - --------Agents action history--------
+2026-11-18 21:35:37,350 - Stocklogger - DEBUG - Agents initial...
+2026-11-18 21:35:37,410 - Stocklogger - DEBUG - cash: 2047808.6627322224, stock a: 66293, stock b:7791, debt: [{'loan': 'yes', 'amount': 148851.91198247162, 'loan_type': 0, 'repayment_date': 44}]
+2026-11-18 21:35:37,428 - Stocklogger - DEBUG - cash: 1447949.2586789534, stock a: 68527, stock b:15715, debt: [{'loan': 'yes', 'amount': 2181032.9089739737, 'loan_type': 2, 'repayment_date': 176}]
+2026-11-18 21:35:37,447 - Stocklogger - DEBUG - cash: 768335.9888964125, stock a: 21928, stock b:74537, debt: [{'loan': 'yes', 'amount': 1621313.4753448688, 'loan_type': 0, 'repayment_date': 66}]
+2026-11-18 21:35:37,447 - Stocklogger - DEBUG - --------Simulation Start!--------
+2026-11-18 21:35:37,447 - Stocklogger - DEBUG - --------DAY 1---------
+2026-11-18 21:35:39,734 - Stocklogger - INFO - INFO: Agent 0 decide to loan: {'loan': 'yes', 'loan_type': 0, 'amount': 148851.91198247162, 'repayment_date': 23}
+2026-11-18 21:35:48,862 - Stocklogger - INFO - INFO: Agent 1 decide to loan: {'loan': 'yes', 'loan_type': 2, 'amount': 1000000.0, 'repayment_date': 67}
+2026-11-18 21:36:21,958 - Stocklogger - INFO - INFO: Agent 2 decide to loan: {'loan': 'yes', 'loan_type': 0, 'amount': 1621313.4753448688, 'repayment_date': 23}
+2026-11-18 21:36:21,958 - Stocklogger - DEBUG - SESSION 1
+2026-11-18 21:36:31,788 - Stocklogger - INFO - INFO: Agent 0 decide to action: {'action_type': 'buy', 'stock': 'B', 'amount': 1000, 'price': 42.25}
+2026-11-18 21:36:41,038 - Stocklogger - INFO - INFO: Agent 1 decide to action: {'action_type': 'buy', 'stock': 'B', 'amount': 5000, 'price': 42.3}
+2026-11-18 21:36:50,276 - Stocklogger - INFO - INFO: Agent 2 decide to action: {'action_type': 'buy', 'stock': 'B', 'amount': 1000, 'price': 42.25}
+2026-11-18 21:36:59,506 - Stocklogger - INFO - Agent 0 tomorrow estimation: {'buy_A': 'no', 'buy_B': 'yes', 'sell_A': 'no', 'sell_B': 'no', 'loan': 'yes'}
+2026-11-18 21:37:02,248 - Stocklogger - INFO - Agent 1 tomorrow estimation: {'buy_A': 'no', 'buy_B': 'yes', 'sell_A': 'no', 'sell_B': 'no', 'loan': 'yes'}
+2026-11-18 21:37:11,725 - Stocklogger - INFO - Agent 2 tomorrow estimation: {'buy_A': 'no', 'buy_B': 'yes', 'sell_A': 'no', 'sell_B': 'no', 'loan': 'yes'}
+2026-11-18 21:37:11,774 - Stocklogger - DEBUG - DAY 1 ends, display forum messages...
+2026-11-18 21:37:20,606 - Stocklogger - INFO - Agent 0 says: Company B shows strong revenue and cash flow growth as a tech company in its growth phase, making it a better target for accumulation compared to the mature and stabilizing Company A. I will continue to look for buying opportunities in Stock B.
+2026-11-18 21:37:29,939 - Stocklogger - INFO - Agent 1 says: Company B shows strong growth potential with solid financials over the past three years, making it an attractive buy for growth-oriented strategies. Company A remains stable but faces top-line growth bottlenecks. Continuing to accumulate Stock B for the long term.
+2026-11-18 21:37:38,595 - Stocklogger - INFO - Agent 2 says: Company B shows strong growth potential in the technology sector with solid revenue and cash flow expansion over the past quarters. I'm focusing on accumulating shares in B while holding steady on A.
+2026-11-18 21:37:38,595 - Stocklogger - DEBUG - --------DAY 2---------
+2026-11-18 21:37:54,906 - Stocklogger - INFO - INFO: Agent 0 decide to loan: {'loan': 'yes', 'loan_type': 0, 'amount': 500000, 'repayment_date': 24}
+2026-11-18 21:38:04,425 - Stocklogger - INFO - INFO: Agent 1 decide to loan: {'loan': 'yes', 'loan_type': 2, 'amount': 700000, 'repayment_date': 68}
+2026-11-18 21:38:13,210 - Stocklogger - INFO - INFO: Agent 2 decide to loan: {'loan': 'yes', 'loan_type': 0, 'amount': 1200000, 'repayment_date': 24}
+2026-11-18 21:38:13,210 - Stocklogger - DEBUG - SESSION 1
+2026-11-18 21:38:21,958 - Stocklogger - INFO - INFO: Agent 0 decide to action: {'action_type': 'buy', 'stock': 'B', 'amount': 2500, 'price': 42.5}
+2026-11-18 21:38:24,221 - Stocklogger - INFO - INFO: Agent 2 decide to action: {'action_type': 'buy', 'stock': 'B', 'amount': 3000, 'price': 42.3}
+2026-11-18 21:38:32,415 - Stocklogger - INFO - INFO: Agent 1 decide to action: {'action_type': 'buy', 'stock': 'B', 'amount': 5000, 'price': 42.4}
+2026-11-18 21:38:41,961 - Stocklogger - INFO - Agent 0 tomorrow estimation: {'buy_A': 'no', 'buy_B': 'yes', 'sell_A': 'no', 'sell_B': 'no', 'loan': 'yes'}
+2026-11-18 21:38:44,586 - Stocklogger - INFO - Agent 1 tomorrow estimation: {'buy_A': 'no', 'buy_B': 'yes', 'sell_A': 'no', 'sell_B': 'no', 'loan': 'yes'}
+2026-11-18 21:38:47,750 - Stocklogger - INFO - Agent 2 tomorrow estimation: {'buy_A': 'no', 'buy_B': 'yes', 'sell_A': 'no', 'sell_B': 'no', 'loan': 'yes'}
+2026-11-18 21:38:47,768 - Stocklogger - DEBUG - DAY 2 ends, display forum messages...
+2026-11-18 21:39:03,667 - Stocklogger - INFO - Agent 0 says: Company B continues to demonstrate solid revenue and cash flow growth as a tech sector growth stock, making it a much more attractive long-term target compared to the stabilizing and mature Company A. I am maintaining my focus on accumulating shares in B.
+2026-11-18 21:39:12,614 - Stocklogger - INFO - Agent 1 says: Company B continues to demonstrate stellar growth potential in the technology sector with robust revenue and cash flow expansion over recent quarters. While Company A remains stable, its top-line growth isbottlenecked. I'm focusing my strategy on accumulating Stock B for long-term growth.
+2026-11-18 21:39:21,315 - Stocklogger - INFO - Agent 2 says: Company B continues to demonstrate strong revenue and cash flow growth as a tech company in its growth phase, making it a much more attractive target for accumulation compared to the mature and stabilizing Company A. I will continue to look for buying opportunities in Stock B.
+2026-11-18 21:39:21,315 - Stocklogger - DEBUG - --------Simulation finished!--------
+2026-11-18 21:39:21,315 - Stocklogger - DEBUG - --------Agents action history--------
